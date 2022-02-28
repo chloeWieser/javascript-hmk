@@ -1,13 +1,17 @@
-function hello(name) {
-    var output = 'Hello ' + name;
-    
-
-    
-    {if(name != ""){
-      console.log(output);
-    }else {
-      console.log("Hello World")
+function hello(name){ 
+      
+    if(name.length == 0){
+      console.log(`Hello World`)
+    }
+    else{
+      console.log(`Hello ${name}`)
     }
 
   }
-  hello("")
+  hello("chloe");
+
+  // function hello(name) {
+  //   var output = 'Hello ' + name;
+  //   console.log(output);
+  // }
+  // hello('Mustache');
